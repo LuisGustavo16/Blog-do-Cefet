@@ -25,7 +25,8 @@ header h1 {
     font-family: 'Alfa Slab One', cursive;
     word-spacing: 0.5rem;
     padding-top: 1rem;
-    text-shadow: 0.01rem 0.01rem 0rem var(--black);
+    text-shadow: 0.15rem 0.01rem 0rem var(--black);
+    letter-spacing: 0.2rem;
 }
 
 main nav{
@@ -74,4 +75,11 @@ div.imagens {
 main div.imagens h2 {
     padding-left: 30rem;
     padding-bottom: 1rem;
+}
+
+main div {
+    display: flex;
+    align-items: center;
+    height: 30rem;
+    width: 50rem;
 }
