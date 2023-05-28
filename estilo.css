@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+ }
+
+:root {
+    --primary: rgb(25, 25, 169);
+    --secondery: rgb(234, 227, 227);
+    --black: black;
+}
+
+header {
+    background-color: var(--secondery);
+    border-bottom: solid 0.2rem;
+    border-color: var(--black);
+    display: flex;
+    justify-content: center;
+    height: 4rem;
+}
+
+header h1 {
+    color: var(--primary);
+    font-family: 'Alfa Slab One', cursive;
+    word-spacing: 0.5rem;
+    padding-top: 1rem;
+    text-shadow: 0.01rem 0.01rem 0rem var(--black);
+}
+
+main nav{
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary);
+    border-bottom: solid 0.2rem;
+    border-color: var(--black)
+}
+
+main nav a {
+    padding-right: 5rem;
+    text-decoration: none;
+}
+
+main nav a h2 {
+    color: var(--secondery);
+}
+
+main div {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+main div h2 {
+    font-family: 'Alfa Slab One', cursive;
+    word-spacing: 0.5rem;
+    color: var(--black);
+}
+
+main div picture {
+    border: solid 0.2rem;
+    border-color: var(--black);
+}
